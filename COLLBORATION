@@ -1,0 +1,19 @@
+  ACCOUNT
+ATM MACHINE
+BANK ACCOUNT
+CHECKING ACCONT
+
+1.Request_kind
+2.enter
+3.request_amunt
+4.enter_amount
+5.Process_transcation
+6.Withdraw
+7.Succesful
+8.Transcation_succesful
+9.despense_cash
+10.Request_Tke_cash
+11.Take_cash
+12.request
+13.terminate
+14.Print_receipt
