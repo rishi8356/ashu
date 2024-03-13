@@ -1,1 +1,26 @@
 1.	Make a Class diagram on Online Library Management System 
+
+
+1.notifaction system
+attributes(username-string,email-string,bookdetail-string)
+opertion(duedate,newarrival,discount)
+
+2.user
+attributes(name-string,emailid-stirng,contact-long int)
+operation(login,logout,place order,make payment)
+
+3.catalogue
+attributes(author name-string,book name -string,bookid-string)
+operation(searchbyname,searchbyauthorname,searchbyId,addtocart)
+
+4.Payment system
+attributes(username-string,paymentmethod-string,total amount-string)
+operation(cancelorder,makepayment,refund)
+
+5.admin
+attributes(username-string,email-string)
+opeartion(login,addbook,update,removebooks)
+
+6.database
+attributes(bookname-string,bookid-string,authorname-string)
+operation(addremovebook,checkstatistics,updatedata)
