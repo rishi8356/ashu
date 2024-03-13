@@ -1,0 +1,17 @@
+//1.COURSE
+ATTRIBUTES(students:list,teacher:lecturer)
+operatiins(addstudent(),removestudents(),assignTeacher(),getstudentList(),getAssignedTeacher())
+
+2.STUDENT
+attributes(courses:list)
+opertion(getCourses())
+
+3.lecturer
+attrbutes(courses:list)
+operation(gettaughtcourse())
+
+4,INTERFCAE PERSON
+
+no at6rbutses
+
+attrbutes(getNmae(),getemailaddres())
