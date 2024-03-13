@@ -1,0 +1,56 @@
+//
+1.BANK
+attributes(code,address)
+opeartion(manges(),maintains())
+
+2.Atm Info
+attributes(location,managedby)
+operation(indentifies(),transaction())
+
+3.customer
+attributes(name,address,dob)
+opeartion(owns())
+
+4.debit card
+attributes(cardno,ownedby)
+opeartion(access())
+
+5.account
+attrinutes(type,owner))
+
+6.Atm transaction
+attributes(transactionId,date,type)
+operation(modifies)
+
+7.cuurent account
+attributes(account no ,balance)
+opertion(debt(),credit())
+
+8.saving account
+attributes(account no ,balance)
+opertion(debt(),credit())
+
+6a.withdrawal transaction
+attributes(amount)
+opeartion(withdrawal())
+
+6b.query transaction
+attributes(query,type)
+operation(query processoing())
+
+
+6c.Transfer transaction
+attributes(amount,account no)
+
+6d.pin validation transction
+
+attriutes(old pin)
+operation(pin charge())
+
+
+
+
+
+
+
+
