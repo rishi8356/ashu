@@ -1,0 +1,26 @@
+//AIR TRANSPORTATION SYSTEM
+
+1.city
+attributes(name:string)
+
+2.Airport
+attributes(name:string,city:city)
+
+3.airline
+attributes(name:string)
+
+4.pilot
+attributes(name:string)
+
+5.plane
+attributes(serialNumbers:string,model:string)
+
+6.Flight
+attributes(flightNumbers:String,date:Date,airlie:Airline,plane:Plane,departureAirport:Airport,destinationAirport:Airport)
+operation(passengers():List<Passengers>)
+
+7.passengers
+attributes(seatLocation:String)
+operation(cancelReservation(flight:Flight:void),,reserveSeat(flight:Flight:void))
+
+
