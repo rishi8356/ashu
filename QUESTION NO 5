@@ -1,0 +1,17 @@
+//
+1.COMPANY
+attributes(name:String,Employees:list)
+operation(getName():String,getEmployees():List)
+
+
+2.EMployee
+attrinutes(employeesNo:int,Name:String,Salary:int,mangaer:Manager)
+operation(getName():String,getEmployeeNo():int,getSalary():int.getMnagaer():Manager)
+
+3.Mnager
+attributes(manger:int)
+operation(TeamMember(employee:Empoyee),getTeamMember():list)
+
+4.contarcter
+operation(lengthofContract:date,getlength:date)
+
